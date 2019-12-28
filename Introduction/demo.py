@@ -53,3 +53,23 @@ total.remove(0)
 
 print(total)
 print(max(total) - min(total))
+
+# DATA TYPE : INTEGER
+
+print(type(4.3))  # float
+
+print(type(4))  # int
+
+print(type(4.3 + 3j))  # complex
+
+# creating complex number
+a = 32
+b = -3
+c = complex(a, b)
+print(c)
+
+# BOOLEAN
+print(55 < 34)
+
+# convert into int data type
+print(int(bool(3 > 1)))
