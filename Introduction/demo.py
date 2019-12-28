@@ -73,3 +73,11 @@ print(55 < 34)
 
 # convert into int data type
 print(int(bool(3 > 1)))
+
+
+# convert range into a list
+print(list(range(20)))
+
+# modification to range
+# increments by 5
+print(list(range(0, 100, 5)))
