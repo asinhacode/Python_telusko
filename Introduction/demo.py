@@ -81,3 +81,28 @@ print(list(range(20)))
 # modification to range
 # increments by 5
 print(list(range(0, 100, 5)))
+
+import math
+
+print(list(range(-10, 20, 2)))
+
+print(math.sqrt(26))
+
+print(math.floor(2.9))
+
+print(math.ceil(2.9))
+
+print(math.ceil(2.1))
+
+print(math.factorial(4))
+
+import math as m
+print(m.sqrt(26))
+
+x = 1
+y = 2
+print(x+y)
+
+ch = input('enter a string, get a letter')[2]
+print(ch)
+
